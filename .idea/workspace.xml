@@ -5,19 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01ae5678-718c-4f7b-b71a-50d574fde15b" name="Changes" comment="test">
-      <change afterPath="$PROJECT_DIR$/analyzers/competitive_pricing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/analyzers/response_analyzer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/connection.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/product.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/questions.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/supplier_conv.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/supplier_profile1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/warehouse_profile.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orchestrator/questions.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orchestrator/warehouse_profile.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/py_conv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/real.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/send_to_suppliers/supplier_Aguirre_Graham.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/send_to_suppliers/supplier_Allen_and_Sons.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/send_to_suppliers/supplier_Bonilla_Spencer.json" afterDir="false" />
@@ -68,35 +55,7 @@
       <change afterPath="$PROJECT_DIR$/send_to_suppliers/supplier_Walton_LLC.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/send_to_suppliers/supplier_Willis__Park_and_Mcguire.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/send_to_suppliers/supplier_Zimmerman__Garcia_and_Henry.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generators/product.py" beforeDir="false" afterPath="$PROJECT_DIR$/generators/product.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generators/supplier_profile.py" beforeDir="false" afterPath="$PROJECT_DIR$/generators/supplier_profile.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generators/supplier_questions.py" beforeDir="false" afterPath="$PROJECT_DIR$/generators/supplier_questions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generators/warehouse_profile.py" beforeDir="false" afterPath="$PROJECT_DIR$/generators/warehouse_profile.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/integrators/create_supplier_file_for_quote.py" beforeDir="false" afterPath="$PROJECT_DIR$/integrators/create_supplier_file_for_quote.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/integrators/load_responses_from_supplier.py" beforeDir="false" afterPath="$PROJECT_DIR$/integrators/load_responses_from_supplier.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/integrators/supplier_convert2.py" beforeDir="false" afterPath="$PROJECT_DIR$/integrators/supplier_convert2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/integrators/supplier_updater.py" beforeDir="false" afterPath="$PROJECT_DIR$/integrators/supplier_updater.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orchestrator/caller2.py" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/caller2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py_conv/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py_conv/caller.py" beforeDir="false" afterPath="$PROJECT_DIR$/py_conv/caller.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py_conv/caller2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py_conv/create_supplier_file_for_quote.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py_conv/first.py" beforeDir="false" afterPath="$PROJECT_DIR$/py_conv/first.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py_conv/load_responses_from_supplier.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py_conv/product.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py_conv/product.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py_conv/questions.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py_conv/supplier_conv.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py_conv/supplier_convert2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py_conv/supplier_profile.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py_conv/supplier_profile.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py_conv/supplier_questions.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py_conv/supplier_updater.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py_conv/warehouse_profile.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py_conv/warehouse_profile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_conv" beforeDir="false" afterPath="$PROJECT_DIR$/py_conv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -280,6 +239,15 @@
       <option name="presentableId" value="Default" />
       <updated>1718081915406</updated>
     </task>
+    <task id="LOCAL-00001" summary="test">
+      <option name="closed" value="true" />
+      <created>1719884309776</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1719884309776</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

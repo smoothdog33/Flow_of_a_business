@@ -13,9 +13,11 @@ def get_connection():
     pgconn = psycopg2.connect(
     host = '0.0.0.0',
     user = 'postgres',
-    password = 'mysecretpassword',
-    database = 'inventory_managment',port = '5455')
+    password = 'postgres',
+    database = 'inventory_managment',port = '5432')
     pgcursor = pgconn.cursor()
     return pgcursor,pgconn
 def get_conn():
-    return 'postgresql+psycopg2://postgres:mysecretpassword@0.0.0.0:5455/inventory_managment'
+    return 'postgresql+psycopg2://postgres:postgres@0.0.0.0:5432/inventory_managment'
+
+

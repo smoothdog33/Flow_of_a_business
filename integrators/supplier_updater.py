@@ -2,6 +2,7 @@ try:
     from connections.connection import get_connection
 except ImportError:
     print("import error")
+
 from faker import Faker
 fake = Faker()
 class supplier_updater_class():
@@ -14,12 +15,11 @@ class supplier_updater_class():
         result = pgcursor.fetchall()
         print(result.count(1))
 
-
         i=1
         Faker.seed(0)
         for r in result:
-            print(r)
-            price =  r[1]
+
+            price = r[1]
             response_id = r[0]
             pgcursor1 = pgconn.cursor()
             try:

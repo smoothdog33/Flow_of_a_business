@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01ae5678-718c-4f7b-b71a-50d574fde15b" name="Changes" comment="test">
-      <change afterPath="$PROJECT_DIR$/send_to_suppliers/supplier_Aguirre_Graham.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/connections/properties.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/send_to_suppliers/supplier_Allen_and_Sons.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/send_to_suppliers/supplier_Bonilla_Spencer.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/send_to_suppliers/supplier_Butler__Kaufman_and_Bruce.json" afterDir="false" />
@@ -22,16 +22,12 @@
       <change afterPath="$PROJECT_DIR$/send_to_suppliers/supplier_Hampton_Branch.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/send_to_suppliers/supplier_Hart_Inc.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/send_to_suppliers/supplier_Jackson__Pacheco_and_Tran.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/send_to_suppliers/supplier_Kennedy_Carter.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/send_to_suppliers/supplier_Klein__Robinson_and_Miller.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/send_to_suppliers/supplier_Leblanc_LLC.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/send_to_suppliers/supplier_Lee_Inc.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/send_to_suppliers/supplier_Lewis_Brown.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/send_to_suppliers/supplier_Lynch_and_Sons.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/send_to_suppliers/supplier_Martin_Group.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/send_to_suppliers/supplier_Mcclain__Campbell_and_Ray.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/send_to_suppliers/supplier_Mcgee__Bailey_and_Adams.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/send_to_suppliers/supplier_Mitchell__Barton_and_Wall.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/send_to_suppliers/supplier_Montgomery_LLC.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/send_to_suppliers/supplier_Murphy__Hatfield_and_Burgess.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/send_to_suppliers/supplier_Myers_LLC.json" afterDir="false" />
@@ -52,9 +48,20 @@
       <change afterPath="$PROJECT_DIR$/send_to_suppliers/supplier_Stone_Ltd.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/send_to_suppliers/supplier_Taylor__Day_and_Burns.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/send_to_suppliers/supplier_Thomas__Howard_and_Dixon.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/send_to_suppliers/supplier_Walton_LLC.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/send_to_suppliers/supplier_Willis__Park_and_Mcguire.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/send_to_suppliers/supplier_Zimmerman__Garcia_and_Henry.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connections/connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/connections/connection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/product.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/product.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/questions.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/questions.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/supplier_conv.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/supplier_conv.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/supplier_profile1.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/supplier_profile1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/warehouse_profile.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/warehouse_profile.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generators/product.py" beforeDir="false" afterPath="$PROJECT_DIR$/generators/product.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generators/supplier_profile.py" beforeDir="false" afterPath="$PROJECT_DIR$/generators/supplier_profile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generators/supplier_questions.py" beforeDir="false" afterPath="$PROJECT_DIR$/generators/supplier_questions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generators/warehouse_profile.py" beforeDir="false" afterPath="$PROJECT_DIR$/generators/warehouse_profile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/integrators/supplier_convert2.py" beforeDir="false" afterPath="$PROJECT_DIR$/integrators/supplier_convert2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/integrators/supplier_updater.py" beforeDir="false" afterPath="$PROJECT_DIR$/integrators/supplier_updater.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orchestrator/caller2.py" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/caller2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/py_conv" beforeDir="false" afterPath="$PROJECT_DIR$/py_conv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -109,8 +116,8 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.load_responses_from_supplier">
-    <configuration name="caller2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.caller2">
+    <configuration name="caller2" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="target" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -220,13 +227,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="supplier_questions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="target" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/generators" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/generators/supplier_questions.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.supplier_questions" />
+        <item itemvalue="Python.product" />
         <item itemvalue="Python.load_responses_from_supplier" />
         <item itemvalue="Python.create_supplier_file_for_quote" />
-        <item itemvalue="Python.caller2" />
         <item itemvalue="Python.supplier_convert2" />
-        <item itemvalue="Python.product" />
       </list>
     </recent_temporary>
   </component>
@@ -247,7 +276,63 @@
       <option name="project" value="LOCAL" />
       <updated>1719884309776</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="test2">
+      <option name="closed" value="true" />
+      <created>1719884986509</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1719884986509</updated>
+    </task>
+    <task id="LOCAL-00003" summary="test2">
+      <option name="closed" value="true" />
+      <created>1719885016844</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1719885016844</updated>
+    </task>
+    <task id="LOCAL-00004" summary="test2">
+      <option name="closed" value="true" />
+      <created>1719885023331</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1719885023331</updated>
+    </task>
+    <task id="LOCAL-00005" summary="test2">
+      <option name="closed" value="true" />
+      <created>1719885078459</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1719885078459</updated>
+    </task>
+    <task id="LOCAL-00006" summary="test2">
+      <option name="closed" value="true" />
+      <created>1719885815251</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1719885815251</updated>
+    </task>
+    <task id="LOCAL-00007" summary="tet3">
+      <option name="closed" value="true" />
+      <created>1719885966620</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1719885966620</updated>
+    </task>
+    <task id="LOCAL-00008" summary="test">
+      <option name="closed" value="true" />
+      <created>1719886060849</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1719886060849</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -262,6 +347,8 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="test2" />
+    <MESSAGE value="tet3" />
     <MESSAGE value="test" />
     <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>

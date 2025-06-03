@@ -1,6 +1,6 @@
 import json
 from connections.connection import get_conn
-from connections.properties import profile_property_func,product_property_func,questions_property_func
+from connections.properties import profile_property_func,product_property_func,questions_property_func,supplier_products_questions_xref
 
 from faker import Faker
 fake = Faker()
@@ -27,10 +27,9 @@ supplier_list = []
 
 class supplier_conv_class():
 
-    def supplier_conv(self):
+    def supplier_products_questions_xref_func(self):
 
         with open(profile_file,"r") as file:
-            print (product_file)
             for jsonObj in file:
                 supplier_dictionary = json.loads(jsonObj)
                 supplier_list.append(supplier_dictionary)
@@ -47,22 +46,20 @@ class supplier_conv_class():
                             print(f"Open Product Unexpected {err=}, {type(err)=}")
 
                         with open(question_file,"r") as file:
-                                for jsonObj in file:
-                                    try:
-                                        question_dictionary = json.loads(jsonObj)
-                                        d = (question_dictionary.get('question_id'))
-                                        new_dict = {"supplier_1":a,"product_id":p,"question_id":d}
-                                        with open('/Users/ayanbhatt/IdeaProjects/Inv_managment/target_project/data/supplier_conv.json', 'a') as f:
-                                                    json.dump(new_dict, f)
-                                                    f.write('\n')
-                                    except Exception as err:
-                                        print(f"Open Questions boo Unexpected {err=}, {type(err)=}")
+                            for jsonObj in file:
+                                try:
+                                    question_dictionary = json.loads(jsonObj)
+                                    d = (question_dictionary.get('question_id'))
+                                    new_dict = {"supplier_1":a,"product_id":p,"question_id":d}
+                                    with open(supplier_products_questions_xref(), 'a') as f:
+                                        json.dump(new_dict, f)
+                                        f.write('\n')
+                                except Exception as err:
+                                    print(f"Open Questions Unexpected {err=}, {type(err)=}")
 
-    def convert_inserter(self,file_name,table_name):
-            df = pd.read_json (file_name,lines=True)
-            from sqlalchemy import create_engine
-            engine = create_engine(pgconn)
-            print(engine)
-            df.to_sql(table_name, engine, if_exists = 'append', index=False)
-
-
+    def supplier_products_questions_xref_inserter(self,file_name,table_name):
+        df = pd.read_json (file_name,lines=True)
+        from sqlalchemy import create_engine
+        engine = create_engine(pgconn)
+        print(engine)
+        df.to_sql(table_name, engine, if_exists = 'append', index=False)

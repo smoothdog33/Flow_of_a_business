@@ -1,7 +1,5 @@
 import json
-
-from faker.exceptions import FakerException
-
+from faker.exceptions import BaseFakerException
 from connections.connection import get_conn
 from connections.properties import profile_property_func
 from connections.properties import counts_of_generations
@@ -27,7 +25,7 @@ class supplier_profile_class():
             fake = Faker("en_US")
             profile = fake.profile()
             Faker.seed(0)
-            for _ in range(50):
+            for _ in range(100):
                 with open(properties2, 'a') as f:
 
                     supplier_contact = fake.phone_number()
@@ -39,7 +37,7 @@ class supplier_profile_class():
                     c = {"supplier_address": supplier_address,"supplier_contact": supplier_contact,"supplier_company":supplier_company,"supplier_id":company_id,"supplier_email":supplier_email}
                     json.dump(c, f)
                     f.write('\n')
-        except FakerException as err:
+        except BaseFakerException as err:
             print(f"Faker error generating product_id: {err}, {type(err)}")
         except FileNotFoundError as e:
             print(f"File not found: {e}")

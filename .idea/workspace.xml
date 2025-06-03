@@ -5,64 +5,80 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01ae5678-718c-4f7b-b71a-50d574fde15b" name="Changes" comment="test">
-      <change afterPath="$PROJECT_DIR$/connections/properties.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/send_to_suppliers/supplier_Allen_and_Sons.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/send_to_suppliers/supplier_Bonilla_Spencer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/send_to_suppliers/supplier_Butler__Kaufman_and_Bruce.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/send_to_suppliers/supplier_Clarke_Jones.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/send_to_suppliers/supplier_Cunningham_Hendricks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/send_to_suppliers/supplier_Fletcher_PLC.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/send_to_suppliers/supplier_Freeman_Rogers.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/send_to_suppliers/supplier_Garcia_Inc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/send_to_suppliers/supplier_Garrett__Mitchell_and_Johnson.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/send_to_suppliers/supplier_Gibbs__Carr_and_Burnett.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/send_to_suppliers/supplier_Good__Garcia_and_Nash.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/send_to_suppliers/supplier_Graham_PLC.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/send_to_suppliers/supplier_Gregory_and_Sons.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/send_to_suppliers/supplier_Hampton_Branch.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/send_to_suppliers/supplier_Hart_Inc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/send_to_suppliers/supplier_Jackson__Pacheco_and_Tran.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/send_to_suppliers/supplier_Lee_Inc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/send_to_suppliers/supplier_Lewis_Brown.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/send_to_suppliers/supplier_Lynch_and_Sons.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/send_to_suppliers/supplier_Martin_Group.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/send_to_suppliers/supplier_Mcclain__Campbell_and_Ray.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/send_to_suppliers/supplier_Mcgee__Bailey_and_Adams.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/send_to_suppliers/supplier_Montgomery_LLC.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/send_to_suppliers/supplier_Murphy__Hatfield_and_Burgess.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/send_to_suppliers/supplier_Myers_LLC.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/send_to_suppliers/supplier_Page__Becker_and_Strickland.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/send_to_suppliers/supplier_Park_Inc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/send_to_suppliers/supplier_Parsons__Keller_and_Harrington.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/send_to_suppliers/supplier_Reynolds_Terry.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/send_to_suppliers/supplier_Riley_Hayes.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/send_to_suppliers/supplier_Roberts__Tucker_and_Cervantes.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/send_to_suppliers/supplier_Robertson_Anderson.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/send_to_suppliers/supplier_Ruiz_Group.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/send_to_suppliers/supplier_Sanchez_James.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/send_to_suppliers/supplier_Sanchez__Johnson_and_Romero.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/send_to_suppliers/supplier_Shaw_Barker.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/send_to_suppliers/supplier_Simpson_Powell.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/send_to_suppliers/supplier_Smith_King.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/send_to_suppliers/supplier_Smith__Bartlett_and_Curry.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/send_to_suppliers/supplier_Stone_Ltd.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/send_to_suppliers/supplier_Taylor__Day_and_Burns.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/send_to_suppliers/supplier_Thomas__Howard_and_Dixon.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dags/dag_file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deletion/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deletion/deletion.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generators/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integrators/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integrators/create_supplier_file_for_quote2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integrators/supplier_products_questions_xref.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integrators/supplier_updater2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orchestrator/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orchestrator/orchestrator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/connections/connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/connections/connection.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/product.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/product.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/questions.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/questions.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/supplier_conv.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/supplier_conv.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/supplier_profile1.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/supplier_profile1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/warehouse_profile.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/warehouse_profile.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connections/properties.py" beforeDir="false" afterPath="$PROJECT_DIR$/connections/properties.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/generators/product.py" beforeDir="false" afterPath="$PROJECT_DIR$/generators/product.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/generators/supplier_profile.py" beforeDir="false" afterPath="$PROJECT_DIR$/generators/supplier_profile.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/generators/supplier_questions.py" beforeDir="false" afterPath="$PROJECT_DIR$/generators/supplier_questions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/generators/warehouse_profile.py" beforeDir="false" afterPath="$PROJECT_DIR$/generators/warehouse_profile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/integrators/create_supplier_file_for_quote.py" beforeDir="false" afterPath="$PROJECT_DIR$/integrators/create_supplier_file_for_quote.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/integrators/load_responses_from_supplier.py" beforeDir="false" afterPath="$PROJECT_DIR$/integrators/load_responses_from_supplier.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/integrators/supplier_convert2.py" beforeDir="false" afterPath="$PROJECT_DIR$/integrators/supplier_convert2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/integrators/supplier_updater.py" beforeDir="false" afterPath="$PROJECT_DIR$/integrators/supplier_updater.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/orchestrator/caller2.py" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator/caller2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py_conv" beforeDir="false" afterPath="$PROJECT_DIR$/py_conv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/send_to_suppliers/supplier_Aguirre_Graham.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/send_to_suppliers/supplier_Allen_and_Sons.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/send_to_suppliers/supplier_Bonilla_Spencer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/send_to_suppliers/supplier_Butler__Kaufman_and_Bruce.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/send_to_suppliers/supplier_Clarke_Jones.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/send_to_suppliers/supplier_Cunningham_Hendricks.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/send_to_suppliers/supplier_Fletcher_PLC.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/send_to_suppliers/supplier_Freeman_Rogers.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/send_to_suppliers/supplier_Garcia_Inc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/send_to_suppliers/supplier_Garrett__Mitchell_and_Johnson.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/send_to_suppliers/supplier_Gibbs__Carr_and_Burnett.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/send_to_suppliers/supplier_Good__Garcia_and_Nash.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/send_to_suppliers/supplier_Graham_PLC.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/send_to_suppliers/supplier_Gregory_and_Sons.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/send_to_suppliers/supplier_Hampton_Branch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/send_to_suppliers/supplier_Hart_Inc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/send_to_suppliers/supplier_Jackson__Pacheco_and_Tran.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/send_to_suppliers/supplier_Kennedy_Carter.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/send_to_suppliers/supplier_Klein__Robinson_and_Miller.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/send_to_suppliers/supplier_Leblanc_LLC.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/send_to_suppliers/supplier_Lee_Inc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/send_to_suppliers/supplier_Lewis_Brown.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/send_to_suppliers/supplier_Lynch_and_Sons.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/send_to_suppliers/supplier_Martin_Group.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/send_to_suppliers/supplier_Mcclain__Campbell_and_Ray.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/send_to_suppliers/supplier_Mcgee__Bailey_and_Adams.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/send_to_suppliers/supplier_Mitchell__Barton_and_Wall.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/send_to_suppliers/supplier_Montgomery_LLC.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/send_to_suppliers/supplier_Murphy__Hatfield_and_Burgess.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/send_to_suppliers/supplier_Myers_LLC.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/send_to_suppliers/supplier_Page__Becker_and_Strickland.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/send_to_suppliers/supplier_Park_Inc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/send_to_suppliers/supplier_Parsons__Keller_and_Harrington.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/send_to_suppliers/supplier_Reynolds_Terry.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/send_to_suppliers/supplier_Riley_Hayes.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/send_to_suppliers/supplier_Roberts__Tucker_and_Cervantes.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/send_to_suppliers/supplier_Robertson_Anderson.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/send_to_suppliers/supplier_Ruiz_Group.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/send_to_suppliers/supplier_Sanchez_James.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/send_to_suppliers/supplier_Sanchez__Johnson_and_Romero.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/send_to_suppliers/supplier_Shaw_Barker.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/send_to_suppliers/supplier_Simpson_Powell.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/send_to_suppliers/supplier_Smith_King.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/send_to_suppliers/supplier_Smith__Bartlett_and_Curry.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/send_to_suppliers/supplier_Stone_Ltd.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/send_to_suppliers/supplier_Taylor__Day_and_Burns.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/send_to_suppliers/supplier_Thomas__Howard_and_Dixon.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/send_to_suppliers/supplier_Walton_LLC.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/send_to_suppliers/supplier_Willis__Park_and_Mcguire.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/send_to_suppliers/supplier_Zimmerman__Garcia_and_Henry.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +94,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
@@ -93,18 +110,32 @@
     &quot;Python.caller2.executor&quot;: &quot;Run&quot;,
     &quot;Python.connection.executor&quot;: &quot;Run&quot;,
     &quot;Python.create_supplier_file_for_quote.executor&quot;: &quot;Run&quot;,
+    &quot;Python.create_supplier_file_for_quote2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dag_file.executor&quot;: &quot;Run&quot;,
+    &quot;Python.deletion.executor&quot;: &quot;Run&quot;,
     &quot;Python.load_responses_from_supplier.executor&quot;: &quot;Run&quot;,
+    &quot;Python.orchestrator.executor&quot;: &quot;Run&quot;,
     &quot;Python.product.executor&quot;: &quot;Run&quot;,
     &quot;Python.supplier_convert2.executor&quot;: &quot;Run&quot;,
     &quot;Python.supplier_profile.executor&quot;: &quot;Run&quot;,
     &quot;Python.supplier_questions.executor&quot;: &quot;Run&quot;,
+    &quot;Python.supplier_updater.executor&quot;: &quot;Run&quot;,
+    &quot;Python.supplier_updater2.executor&quot;: &quot;Run&quot;,
     &quot;Python.warehouse_profile.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/ayanbhatt/IdeaProjects/Inv_managment/target_project&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;TEXT&quot;
+    ]
   }
 }</component>
   <component name="RecentsManager">
@@ -116,7 +147,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.caller2">
+  <component name="RunManager" selected="Python.deletion">
     <configuration name="caller2" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="target" />
       <option name="ENV_FILES" value="" />
@@ -161,7 +192,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="load_responses_from_supplier" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="create_supplier_file_for_quote2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="target" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -174,7 +205,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/integrators/load_responses_from_supplier.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/integrators/create_supplier_file_for_quote2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -183,7 +214,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="product" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="deletion" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="target" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -192,11 +223,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/py_conv" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/deletion" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/generators/product.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/deletion/deletion.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -205,7 +236,29 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="supplier_convert2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="orchestrator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="target" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/orchestrator" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/orchestrator/orchestrator.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="supplier_updater2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="target" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -218,29 +271,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/integrators/supplier_convert2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="supplier_questions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="target" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/generators" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/generators/supplier_questions.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/integrators/supplier_updater2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -251,11 +282,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.supplier_questions" />
-        <item itemvalue="Python.product" />
-        <item itemvalue="Python.load_responses_from_supplier" />
+        <item itemvalue="Python.deletion" />
+        <item itemvalue="Python.orchestrator" />
+        <item itemvalue="Python.create_supplier_file_for_quote2" />
         <item itemvalue="Python.create_supplier_file_for_quote" />
-        <item itemvalue="Python.supplier_convert2" />
+        <item itemvalue="Python.supplier_updater2" />
       </list>
     </recent_temporary>
   </component>

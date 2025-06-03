@@ -1,6 +1,6 @@
 import json
 
-from faker.exceptions import FakerException
+from faker.exceptions import BaseFakerException
 
 from connections.connection import get_connection
 
@@ -45,7 +45,7 @@ class supplier_questions_class():
                     json.dump(c, f)
                     f.write('\n')
 
-        except FakerException as err:
+        except BaseFakerException as err:
             print(f"Faker error generating product_id: {err}, {type(err)}")
         except FileNotFoundError as e:
             print(f"File not found: {e}")

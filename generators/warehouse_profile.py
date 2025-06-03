@@ -1,5 +1,5 @@
 from faker import Faker
-from faker.exceptions import FakerException
+from faker.exceptions import BaseFakerException
 
 from connections.connection import get_conn
 from connections.properties import warehouse_property_func
@@ -30,7 +30,7 @@ class warehouse_profile_class():
     def warehouse_profile(self):
         try:
             Faker.seed(0)
-            for _ in range(50):
+            for _ in range(100):
                 with open(properties1, 'a') as f:
                     r = fake.profile()
                     address = r['residence']
@@ -38,7 +38,7 @@ class warehouse_profile_class():
                     c = {"warehouse_id": warehouse_id, "address": address}
                     json.dump(c, f)
                     f.write('\n')
-        except FakerException as err:
+        except BaseFakerException as err:
             print(f"Faker error generating product_id: {err}, {type(err)}")
         except FileNotFoundError as e:
             print(f"File not found: {e}")

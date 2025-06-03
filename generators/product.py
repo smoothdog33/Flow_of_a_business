@@ -1,4 +1,5 @@
 from faker import Faker
+import threading
 import json
 import random
 count = 0
@@ -8,15 +9,14 @@ from connections.properties import product_property_func
 from connections.properties import counts_of_generations
 
 from faker import Faker
-from faker.exceptions import FakerException
-
+from faker.exceptions import BaseFakerException
 import pandas
 import errno
 import os
 
 pd = pandas
 
-fake = Faker()
+
 
 try:
     pgconn = get_conn()
@@ -39,7 +39,7 @@ class product_class():
             try:
                 with open(properties1, 'a') as f:
                     Faker.seed(0)
-                    for _ in range(50):
+                    for _ in range(100):
                         product_id = fake.pyint(5)
                         product_name = fake.first_name_male()
                         product_discription = fake.lexify(text='??????????????????????????????')
@@ -52,7 +52,7 @@ class product_class():
                         json.dump(c, f)
                         f.write('\n')
 
-            except FakerException as err:
+            except BaseFakerException as err:
                 print(f"Faker error generating product_id: {err}, {type(err)}")
             except FileNotFoundError as e:
                 print(f"File not found: {e}")
